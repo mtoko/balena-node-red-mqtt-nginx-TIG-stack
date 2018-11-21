@@ -97,14 +97,14 @@ module.exports = {
     //    }]
     //},
 
-    adminAuth: {
-        type: "credentials",
-        users: [{
-            username: process.env.USERNAME,
-            password: process.env.PASSWORD,
-            permissions: "*"
-        }]
-    },
+   // adminAuth: {
+   //     type: "credentials",
+   //     users: [{
+   //         username: process.env.USERNAME,
+   //         password: process.env.PASSWORD,
+   //         permissions: "*"
+   //     }]
+   // },
 
 
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
